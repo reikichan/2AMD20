@@ -1,19 +1,19 @@
 @prefix ns1: <ex:> .
-@prefix ns2: <ex:donorRegisterValues-avg-x1000-2019Until2021,> .
+@prefix ns2: <ex:hasAdmissions-x1000-2019,Men,> .
 @prefix ns3: <ex:hasAdmissions-x1000-2019,Women,> .
 @prefix ns4: <ex:hasPersonsWithMedicines-avg-percentage-2019Until2020,Women,> .
-@prefix ns5: <ex:hasAdmissions-x1000-2019,Men,> .
-@prefix ns6: <ex:hasPersonsWithMedicines-avg-percentage-2019Until2020,Men,> .
+@prefix ns5: <ex:hasPersonsWithMedicines-avg-percentage-2019Until2020,Men,> .
+@prefix ns6: <ex:donorRegisterValues-avg-x1000-2019Until2021,> .
 
-ns1:Alphen-Chaam ns2:inDonorRegister ns1:5.7 ;
-    ns2:notInDonorRegister ns1:3.3000000000000003 ;
-    ns2:total ns1:9.033333333333333 ;
-    ns5:0-years ns1:435.0 ;
-    ns5:1-20-years ns1:0.0 ;
-    ns5:20-45-years ns1:76.0 ;
-    ns5:45-65-years ns1:453.0 ;
-    ns5:65-80-years ns1:45.0 ;
-    ns5:80-years-or-older ns1:150.0 ;
+ns1:Alphen-Chaam ns6:inDonorRegister ns1:5.7 ;
+    ns6:notInDonorRegister ns1:3.3000000000000003 ;
+    ns6:total ns1:9.033333333333333 ;
+    ns2:0-years ns1:435.0 ;
+    ns2:1-20-years ns1:0.0 ;
+    ns2:20-45-years ns1:76.0 ;
+    ns2:45-65-years ns1:453.0 ;
+    ns2:65-80-years ns1:45.0 ;
+    ns2:80-years-or-older ns1:150.0 ;
     ns3:0-years ns1:169.0 ;
     ns3:1-20-years ns1:29.0 ;
     ns3:20-45-years ns1:216.0 ;
@@ -85,14 +85,14 @@ ns1:Alphen-Chaam ns2:inDonorRegister ns1:5.7 ;
     ns1:hasNumberOfWomenInAgeGroup-85-and-older-avg ns1:155.33333333333334 ;
     ns1:hasNumberOfWomenInAgeGroupYoungerThanTwenty-avg ns1:1014.3333333333334 ;
     ns1:hasOtherCausesOfDeath-avg-2019Until2021 ns1:67.8494623655914 ;
-    ns6:0-15-years ns1:5.85 ;
-    ns6:15-25-years ns1:5.05 ;
-    ns6:25-35-years ns1:5.1 ;
-    ns6:35-45-years ns1:7.699999999999999 ;
-    ns6:45-55-years ns1:3.95 ;
-    ns6:55-65-years ns1:7.45 ;
-    ns6:65-75-years ns1:4.1 ;
-    ns6:75-years-or-older ns1:2.4000000000000004 ;
+    ns5:0-15-years ns1:5.85 ;
+    ns5:15-25-years ns1:5.05 ;
+    ns5:25-35-years ns1:5.1 ;
+    ns5:35-45-years ns1:7.699999999999999 ;
+    ns5:45-55-years ns1:3.95 ;
+    ns5:55-65-years ns1:7.45 ;
+    ns5:65-75-years ns1:4.1 ;
+    ns5:75-years-or-older ns1:2.4000000000000004 ;
     ns4:0-15-years ns1:2.15 ;
     ns4:15-25-years ns1:2.9 ;
     ns4:25-35-years ns1:9.0 ;
@@ -123,15 +123,15 @@ ns1:Alphen-Chaam ns2:inDonorRegister ns1:5.7 ;
     ns1:hasTotalDemographicPressure-avg-percentage-2019Until2021 ns1:78.0 ;
     ns1:isPartOf ns1:Noord-Brabant .
 
-ns1:Altena ns2:inDonorRegister ns1:28.53333333333333 ;
-    ns2:notInDonorRegister ns1:19.7 ;
-    ns2:total ns1:48.26666666666667 ;
-    ns5:0-years ns1:80.0 ;
-    ns5:1-20-years ns1:1.0 ;
-    ns5:20-45-years ns1:75.0 ;
-    ns5:45-65-years ns1:845.0 ;
-    ns5:65-80-years ns1:65.0 ;
-    ns5:80-years-or-older ns1:283.0 ;
+ns1:Altena ns6:inDonorRegister ns1:28.53333333333333 ;
+    ns6:notInDonorRegister ns1:19.7 ;
+    ns6:total ns1:48.26666666666667 ;
+    ns2:0-years ns1:80.0 ;
+    ns2:1-20-years ns1:1.0 ;
+    ns2:20-45-years ns1:75.0 ;
+    ns2:45-65-years ns1:845.0 ;
+    ns2:65-80-years ns1:65.0 ;
+    ns2:80-years-or-older ns1:283.0 ;
     ns3:0-years ns1:516.0 ;
     ns3:1-20-years ns1:60.0 ;
     ns3:20-45-years ns1:457.0 ;
@@ -203,14 +203,14 @@ ns1:Altena ns2:inDonorRegister ns1:28.53333333333333 ;
     ns1:hasNumberOfWomenInAgeGroup-85-and-older-avg ns1:750.3333333333334 ;
     ns1:hasNumberOfWomenInAgeGroupYoungerThanTwenty-avg ns1:6460.0 ;
     ns1:hasOtherCausesOfDeath-avg-2019Until2021 ns1:173.1827956989247 ;
-    ns6:0-15-years ns1:7.15 ;
-    ns6:15-25-years ns1:3.35 ;
-    ns6:25-35-years ns1:4.6 ;
-    ns6:35-45-years ns1:1.9 ;
-    ns6:45-55-years ns1:0.6 ;
-    ns6:55-65-years ns1:3.0 ;
-    ns6:65-75-years ns1:6.55 ;
-    ns6:75-years-or-older ns1:1.4 ;
+    ns5:0-15-years ns1:7.15 ;
+    ns5:15-25-years ns1:3.35 ;
+    ns5:25-35-years ns1:4.6 ;
+    ns5:35-45-years ns1:1.9 ;
+    ns5:45-55-years ns1:0.6 ;
+    ns5:55-65-years ns1:3.0 ;
+    ns5:65-75-years ns1:6.55 ;
+    ns5:75-years-or-older ns1:1.4 ;
     ns4:0-15-years ns1:4.9 ;
     ns4:15-25-years ns1:6.3999999999999995 ;
     ns4:25-35-years ns1:4.7 ;
